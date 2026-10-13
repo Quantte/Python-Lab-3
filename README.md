@@ -37,3 +37,13 @@ HEX-число - число в шестнадцатеричном формате
 
 Об использовании tkinter: https://pythonru.com/uroki/obuchenie-python-gui-uroki-po-tkinter  
 Функционал random: https://docs.python.org/3/library/random.html
+
+**Решение (вариант 10)**
+
+Minecraft-кейген: `variant_10.py`, картинки, шрифт и музыка — в `assets/`.
+
+```bash
+uv run variant_10.py
+```
+
+Тесты: `uv run python -m unittest test_variant_10 -v`
