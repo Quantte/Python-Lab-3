@@ -55,9 +55,8 @@ class GenerateKeyTests(unittest.TestCase):
         ]
 
         for value in invalid_values:
-            with self.subTest(value=value):
-                with self.assertRaises(ValueError):
-                    variant_10.generate_key(value)
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                variant_10.generate_key(value)
 
 
 if __name__ == "__main__":

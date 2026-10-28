@@ -19,7 +19,7 @@ MARQUEE = (
 )
 
 
-def generate_key(number):
+def generate_key(number: str) -> str:
     """Генерирует ключ вида XXXXX-XXXXX XXXX из 6 введённых цифр."""
     # Проверяем ввод: ровно 6 символов и все они цифры 0-9
     if len(number) != 6 or any(symbol not in string.digits for symbol in number):
